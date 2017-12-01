@@ -1646,6 +1646,7 @@ describe('ReactDOMInput', () => {
 
       expect(node.value).toBe('foo');
       expect(node.getAttribute('value')).toBe('');
+      // TODO: we should warn here.
     });
   });
 
